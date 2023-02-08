@@ -1,0 +1,29 @@
+@media (max-width:1200px) {
+    .grill__block, .grill__about{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+    }
+}
+@media (max-width:992px) {
+    .header__nav{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .grill__box:nth-child(1),.grill__box:nth-child(2){
+        margin-bottom: 0px;
+    }
+    .footer{
+        max-width: 992px;
+        padding: 10px;
+    }
+    .footer__form{
+        align-items: center;
+    }
+}
+@media (max-width:768px) {
+ 
+}
+@media (max-width:576px) {
+ 
+}
